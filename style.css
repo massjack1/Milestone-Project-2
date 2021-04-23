@@ -1,1 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background: #c87155;
+  padding: 1em;
+}
+.navbar .logo {
+  font-family: abril fatface;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+}
+/* Fix the navigation options */
+.navbar nav {
+  display: none;
+}
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+}
+.navbar .menu {
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
+/* Fix the navigation exit option */
+
+.navbar nav .exit {
+  display: none;
+}
+
+section {
+  padding: 5em 4em;
+  height: 812px;
+}
+.hero {
+  background: #c87155;
+  text-align: center;
+}
+.hero .container h1 {
+  font-size: 70px;
+  font-family: 'abril fatface', cursive;
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+}
+.hero .container p {
+  font-size: 22px;
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  color: #000;
+  
+}
+a {
+    color: #444444;
+}
+div.hero-cta{
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  background: #806161;
+  text-decoration: none;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.6em 1.3em;
+}
 
