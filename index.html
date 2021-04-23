@@ -17,10 +17,10 @@
     <div class="navbar">
         <div class="container">
             <a href="#" class="logo">Solar Power</a>
-            <img id="menu-cta" src="./assets/icon/menu.svg" alt="Burger Navigation">
+            <img id="menu-cta" class="menu" src="./assets/icon/menu.svg" alt="Burger Navigation">
             <nav>
-                <img id="exit" src="./assets/icon/exit.svg" alt="Exit Navigation">
-                <ul>
+                <img id="exit" class="exit" src="./assets/icon/exit.svg" alt="Exit Navigation">
+                <ul class="nav">
                     <li class="current"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -31,14 +31,43 @@
     </div>
     <!--Hero Section-->
     <section class="hero">
-
+        <div class="container">
+            <h1>Solar Power</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis ducimus. Inventore et quae culpa corporis quisquam iure alias eius ipsam, at earum tempora eos sequi.!</p>
+            <div class="hero-cta"><a class="primary-cta" href="#">Learn More</a></div>
+        </div>
+    </section>                         
+    <section class="info-section">
+        <img class="power-img" src="./assets/img/power.png" alt="Illustration of the world">
+        < class="container">
+        <h1>About</h1>  
+        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim a consequatur iste! In, repudiandae autem? Quisquam officiis incidunt officia provident, voluptate commodi id eligendi exercitationem fuga consectetur, asperiores amet aperiam sit nostrum minus tempora sapiente consequuntur! Odio iste eligendi vitae sunt eos? Quidem nam optio blanditiis minus nostrum reprehenderit numquam itaque enim libero vel quo, voluptatum impedit. Placeat, explicabo.</p>                         
+        <p class="info2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim a consequatur iste! In, repudiandae autem? Quisquam officiis incidunt officia provident, voluptate commodi id eligendi exercitationem fuga consectetur, asperiores amet aperiam sit nostrum minus tempora sapiente consequuntur! Odio iste eligendi vitae sunt eos? Quidem nam optio blanditiis minus nostrum reprehenderit numquam itaque enim libero vel quo, voluptatum impedit. Placeat, explicabo.</p>                         
+        <p class="info3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim a consequatur iste! In, repudiandae autem? Quisquam officiis incidunt officia provident, voluptate commodi id eligendi exercitationem fuga consectetur, asperiores amet aperiam sit nostrum minus tempora sapiente consequuntur! Odio iste eligendi vitae sunt eos? Quidem nam optio blanditiis minus nostrum reprehenderit numquam itaque enim libero vel quo, voluptatum impedit. Placeat, explicabo.</p> <a href="#">Read More</a>
+    </div>
     </section>                               
-    <section>
+    <section class="contact-section">
+       <div class="container">
+           <h1>Contact</h1>
+           <form action="">
+               <label for="firstname">First name:</label>
+               <input type="text" name="fname" id="fname" placeholder="First name...">
 
-    </section>                               
-    <section>
+               <label for="lastname">Last Name:</label>
+               <input type="text" name="lname" id="lname" placeholder="Last Name...">
 
-    </section>                               
+               <label for="email">Email:</label>
+               <input type="email" name="email" id="email" placeholder="Enter your Email...">
+
+               <label for="message">Message</label>
+               <textarea name="message" id="message" placeholder="Feel free to write your message here..." cols="30" rows="10"></textarea>
+               <input type="submit" name="submit" id="submit">
+           </form>
+       </div> 
+    </section> 
+    <footer>
+        
+    </footer>                              
    <script src="./app.js"></script> 
 </body>
 </html>  
