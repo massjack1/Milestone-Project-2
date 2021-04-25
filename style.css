@@ -36,7 +36,7 @@
 
 section {
   padding: 5em 4em;
-  height: 812px;
+  height: 95vh;
 }
 .hero {
   background: #c87155;
@@ -46,7 +46,7 @@ section {
   font-size: 70px;
   font-family: 'abril fatface', cursive;
   color: #ffffff;
-  font-weight: bold;
+  line-height: 1.3em;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 .hero .container p {
@@ -68,5 +68,29 @@ div.hero-cta{
   font-weight: bold;
   display: inline-block;
   padding: 0.6em 1.3em;
-}
 
+}
+img.power-img{
+ display: none;
+}
+section.info-section h1{
+  font-size: 60px;
+  font-family: 'abril fatface', cursive;
+  color: #806161;
+  text-align: center; 
+}
+p.info .info2 .info3{
+  font-size: 12px;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  height: 60vh;
+ 
+}
+section.contact-section h1{
+  font-family: "abril fatface", cursive;
+  font-size: 60px;
+  font-style: normal;
+  text-align: center;
+  color: #806161;
+
+}
