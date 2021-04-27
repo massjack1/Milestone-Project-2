@@ -28,6 +28,9 @@ a.nav-link {
   color: white;
   font-size: 22px;
 }
+a.nav-link:hover{
+  color: gray;
+}
 /* Hero Section */
 .hero {
   text-align: center;
@@ -39,7 +42,6 @@ a.nav-link {
   font-size: 30px;
 }
 .hero h1 {
-  
   color: #fff;
   font-family: "Abril fatface", cursive;
   font-size: 85px;
@@ -56,4 +58,7 @@ section.hero {
   border-radius: 12px;
   display: inline-block;
   text-decoration: none;
+}
+.hero-cta:hover{
+  color: gray;
 }
