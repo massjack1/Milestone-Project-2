@@ -14,19 +14,18 @@
     <title>Solar Power</title>
 </head>
 <body>
+    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
     <!--Navigation-->
-    <div class="navbar">
+    <div class="navbar fixed-top">
         <div class="container">
             <a href="#" class="logo">Solar Power</a>
             <img id="menu-cta" class="menu" src="./assets/icon/menu.svg" alt="Burger Navigation">
-            <nav>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
                 <img id="exit" class="exit" src="./assets/icon/exit.svg" alt="Exit Navigation">
-                <ul class="nav">
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#themes">Themes</a></li>
-                </ul>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a  class="nav-link"href="#contact">Contact</a>
+                    <a  class="nav-link"href="#themes">Themes</a>
             </nav>
         </div>
     </div>
@@ -35,7 +34,7 @@
         <div class="container">
             <h1 class="display-5 fw-bold">Solar Power</h1>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quis ducimus!</p>
-            <div class="hero-cta"><a class="primary-cta" href="#">Learn More</a></div>
+            <a class="hero-cta" href="#about" role="button">Learn More</a>
         </div>
     </section>                         
     <section class="info-section">
@@ -46,6 +45,7 @@
         <p class="info2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim a consequatur iste! In, repudiandae autem? Quisquam officiis incidunt officia provident, voluptate commodi id eligendi exercitationem fuga consectetur, asperiores amet aperiam sit nostrum minus tempora sapiente consequuntur! Odio iste eligendi vitae sunt eos? Quidem nam optio blanditiis minus nostrum reprehenderit numquam itaque enim libero vel quo, voluptatum impedit. Placeat, explicabo.</p>                         
         <p class="info3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita enim a consequatur iste! In, repudiandae autem? Quisquam officiis incidunt officia provident, voluptate commodi id eligendi exercitationem fuga consectetur, asperiores amet aperiam sit nostrum minus tempora sapiente consequuntur! Odio iste eligendi vitae sunt eos? Quidem nam optio blanditiis minus nostrum reprehenderit numquam itaque enim libero vel quo, voluptatum impedit. Placeat, explicabo.</p> <a href="#">Read More</a>
     </div>
+</div>
     </section>                               
     <section class="contact-section">
        <div class="container">
@@ -60,7 +60,7 @@
                <label for="email">Email:</label>
                <input type="email" name="email" id="email" placeholder="Enter your Email...">
 
-               <label for="message">Message</label>
+               <label for="message">Message:</label>
                <textarea name="message" id="message" placeholder="Feel free to write your message here..." cols="30" rows="10"></textarea>
                <input type="submit" name="submit" id="submit">
            </form>

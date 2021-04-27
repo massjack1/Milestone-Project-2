@@ -1,7 +1,7 @@
-* {
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .navbar {
   background: #c87155;
@@ -9,88 +9,51 @@
 }
 .navbar .logo {
   font-family: abril fatface;
-  font-size: 1.2em;
+  font-size: 25px;
   text-decoration: none;
   font-weight: bold;
   color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
-/* Fix the navigation options */
-.navbar nav {
+img#menu-cta.menu {
   display: none;
 }
-.navbar .container {
-  display: flex;
-  place-content: space-between;
-}
-.navbar .menu {
-  height: 2em;
-  width: 2em;
-  cursor: pointer;
-}
-/* Fix the navigation exit option */
-
-.navbar nav .exit {
+img#exit.exit {
   display: none;
-}
-
-section {
-  padding: 5em 4em;
-  height: 95vh;
-}
-.hero {
-  background: #c87155;
-  text-align: center;
-}
-.hero .container h1 {
-  font-size: 70px;
-  font-family: 'abril fatface', cursive;
-  color: #ffffff;
-  line-height: 1.3em;
-  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
-}
-.hero .container p {
-  font-size: 22px;
-  font-family: 'Poppins', sans-serif;
-  font-style: bold;
-  color: #000;
-  
 }
 a {
-    color: #444444;
+  color: #fff;
 }
-div.hero-cta{
-  font-family: "Poppins", sans-serif;
-  font-size: 1em;
-  background: #806161;
-  text-decoration: none;
-  border-radius: 5em;
-  font-weight: bold;
-  display: inline-block;
-  padding: 0.6em 1.3em;
-
+a.nav-link {
+  color: white;
+  font-size: 22px;
 }
-img.power-img{
- display: none;
-}
-section.info-section h1{
-  font-size: 60px;
-  font-family: 'abril fatface', cursive;
-  color: #806161;
-  text-align: center; 
-}
-p.info .info2 .info3{
-  font-size: 12px;
-  font-style: normal;
-  font-family: "Poppins", sans-serif;
-  height: 60vh;
- 
-}
-section.contact-section h1{
-  font-family: "abril fatface", cursive;
-  font-size: 60px;
-  font-style: normal;
+/* Hero Section */
+.hero {
   text-align: center;
-  color: #806161;
-
+  padding: 300px 0;
+}
+.hero p {
+  padding: 150px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+.hero h1 {
+  
+  color: #fff;
+  font-family: "Abril fatface", cursive;
+  font-size: 85px;
+  height: 50%;
+}
+section.hero {
+  background-color: #c87155;
+  min-height: 100vh;
+}
+.hero-cta {
+  background-color: #806161;
+  font-size: 17px;
+  padding: 15px 27px;
+  border-radius: 12px;
+  display: inline-block;
+  text-decoration: none;
 }
