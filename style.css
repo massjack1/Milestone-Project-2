@@ -27,6 +27,7 @@ a {
 a.nav-link {
   color: white;
   font-size: 22px;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 a.nav-link:hover{
   color: gray;
@@ -63,6 +64,7 @@ section.hero {
   border-radius: 12px;
   display: inline-block;
   text-decoration: none;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 .hero-cta:hover{
   color: gray;
