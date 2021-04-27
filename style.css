@@ -40,16 +40,21 @@ a.nav-link:hover{
   padding: 150px;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
+  color: rgb(255, 249, 249);
+  text-transform: uppercase;
 }
 .hero h1 {
   color: #fff;
   font-family: "Abril fatface", cursive;
   font-size: 85px;
   height: 50%;
+  text-shadow: 0 0.4rem 0.1rem rgb(0 0 0 / 50%);
+}
+section{
+  min-height: 100vh;
 }
 section.hero {
   background-color: #c87155;
-  min-height: 100vh;
 }
 .hero-cta {
   background-color: #806161;
@@ -61,4 +66,24 @@ section.hero {
 }
 .hero-cta:hover{
   color: gray;
+}
+img.solar-img {
+ width: 500px;
+ height: auto;
+}
+section.info-section {
+  text-align: center;
+  padding: 300px 0;
+  background-color: #ffffff;
+}
+.info-section h1{
+  font-size: 60px;
+  font-family: "Abril Fatface", cursive;
+  color: #806161;
+}
+a.info-link{
+  color: #806161;
+}
+.info-section p {
+  padding: 120px 0;
 }
