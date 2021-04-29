@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+/* Navigation */
 .navbar {
   background: #c87155;
   padding: 1em;
@@ -29,7 +30,7 @@ a.nav-link {
   font-size: 22px;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
-a.nav-link:hover{
+a.nav-link:hover {
   color: gray;
 }
 /* Hero Section */
@@ -51,7 +52,7 @@ a.nav-link:hover{
   height: 50%;
   text-shadow: 0 0.4rem 0.1rem rgb(0 0 0 / 50%);
 }
-section{
+section {
   min-height: 100vh;
 }
 section.hero {
@@ -66,70 +67,73 @@ section.hero {
   text-decoration: none;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
-.hero-cta:hover{
+.hero-cta:hover {
   color: gray;
 }
+/* About Section */
 img.solar-img {
- width: 500px;
- height: auto;
+  width: 500px;
+  height: auto;
 }
 section.info-section {
   text-align: center;
   padding: 300px 0;
   background-color: #ffffff;
 }
-.info-section h1{
+.info-section h1 {
   font-size: 60px;
   font-family: "Abril Fatface", cursive;
   color: #806161;
 }
-a.info-link{
+a.info-link {
   color: #806161;
 }
 .info-section p {
   padding: 120px 0;
 }
-section.contact-section{
+section.contact-section {
   padding: 300px 0;
+  background-color: #999;
 }
 div.wrap-contact100 {
   text-align: center;
 }
-/* Contact form - From a tutorial (Credits can be found in the Readme.md file) */
+/* Contact form - From a tutorial (Between line 101-274) (Credits can be found in the Readme.md file) */
 
 input {
   outline: none;
   border: none;
 }
-textarea{
+textarea {
   outline: none;
   border: none;
 }
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: transparent !important;
 }
 input::-webkit-input-placeholder {
   color: #999999;
 }
-input:-moz-placeholder{
+input:-moz-placeholder {
   color: #999999;
 }
-input::-moz-placeholder{
+input::-moz-placeholder {
   color: #999999;
 }
-input:-ms-input-placeholder{
+input:-ms-input-placeholder {
   color: #999999;
 }
-textarea::-webkit-input-placeholder{
+textarea::-webkit-input-placeholder {
   color: #999999;
-} 
-textarea:-moz-placeholder{
+}
+textarea:-moz-placeholder {
   color: #999;
 }
-textarea::-moz-placeholder{
+textarea::-moz-placeholder {
   color: #999;
 }
-textarea:-ms-input-placeholder{
+textarea:-ms-input-placeholder {
   color: #999;
 }
 
@@ -138,10 +142,10 @@ button {
   border: none;
   background: transparent;
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
-.container-contact100{
+.container-contact100 {
   width: 100%;
   min-height: 100vh;
   display: -webkit-box;
@@ -203,7 +207,6 @@ input.input100 {
   padding: 0 20px 0 23px;
 }
 
-
 textarea.input100 {
   min-height: 199px;
   padding: 19px 20px 0 23px;
@@ -228,14 +231,14 @@ textarea.input100 {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
-.input100:focus + .focus-input100{
+.input100:focus + .focus-input100 {
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
   -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
 }
-.container-contact100-form-btn{
+.container-contact100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -246,7 +249,7 @@ textarea.input100 {
   padding-top: 10px;
   padding-bottom: 43px;
 }
-.contact100-form-btn{
+.contact100-form-btn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -268,6 +271,38 @@ textarea.input100 {
   text-transform: uppercase;
   padding-top: 5px;
 }
-.contact100-form-btn:hover{
+.contact100-form-btn:hover {
   color: gray;
+}
+/* Footer */
+footer {
+  padding: 10px;
+}
+
+.my-footer{
+  text-align: center;
+  padding: 15px;
+}
+
+ul.list-inline {
+  padding: 12px 0;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  cursor: pointer;  
+}
+ul.list-inline.social-links i:hover{
+  color: #BFA1A1;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+div.text-center.p-3{
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
