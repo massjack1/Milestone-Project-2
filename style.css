@@ -78,12 +78,12 @@ img.solar-img {
   width: 500px;
   height: auto;
 }
-p.info{
+p.info p.info2{
   font-family: "Poppins", sans-serif;
 }
 section.info-section {
   text-align: center;
-  padding: 300px 0;
+  padding: 270px 0;
   background-color: #ffffff;
 }
 .info-section h1 {
@@ -98,9 +98,10 @@ h3{
   padding: 120px 0;
   font-family: "Poppins",sans-serif;
   font-weight: 600;
+  padding-bottom: 30px;
 }
 .info-section p {
-  padding: 11px 0;
+  padding: 11px 0; 
 }
 /* Contact Section */
 section.contact-section {
@@ -191,9 +192,9 @@ button:hover {
 
 .contact100-form-title {
   display: block;
-  font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  color: #333333;
+  font-family: "Abril Fatface", sans-serif;
+  font-size: 60px;
+  color: #806161;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 34px;
