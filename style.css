@@ -41,7 +41,6 @@ a.nav-link:hover {
 .hero p {
   padding: 150px;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
   color: rgb(255, 249, 249);
   text-transform: uppercase;
 }
@@ -51,6 +50,10 @@ a.nav-link:hover {
   font-size: 85px;
   height: 50%;
   text-shadow: 0 0.4rem 0.1rem rgb(0 0 0 / 50%);
+}
+p.lead {
+  font-weight: 600;
+  font-size: 35px;
 }
 section {
   min-height: 100vh;
@@ -75,6 +78,9 @@ img.solar-img {
   width: 500px;
   height: auto;
 }
+p.info{
+  font-family: "Poppins", sans-serif;
+}
 section.info-section {
   text-align: center;
   padding: 300px 0;
@@ -88,9 +94,15 @@ section.info-section {
 a.info-link {
   color: #806161;
 }
-.info-section p {
+h3{
   padding: 120px 0;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
 }
+.info-section p {
+  padding: 11px 0;
+}
+/* Contact Section */
 section.contact-section {
   padding: 300px 0;
   background-color: #999;
