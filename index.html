@@ -24,8 +24,7 @@
                 <img id="exit" class="exit" src="./assets/icon/exit.svg" alt="Exit Navigation">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                     <a class="nav-link" href="#about">About</a>
-                    <a  class="nav-link"href="#contact">Contact</a>
-                    <a  class="nav-link"href="#themes">Themes</a>
+                    <a  class="nav-link" href="#contact">Contact</a>
             </nav>
         </div>
     </div>
@@ -37,7 +36,7 @@
             <a class="hero-cta" href="#about" role="button">Learn More</a>
         </div>
     </section>                         
-    <section class="info-section">
+    <section id="about" class="info-section">
         <img class="solar-img" src="./assets/img/solar.jpg" alt="Illustration of the world">
         <div class="container">
         <h1>About</h1>
@@ -52,20 +51,21 @@
 </div>  
 </div>
     </section>                               
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
        <div class="wrap-contact100">
            <form class="contact100-form validate-form">
                <span class="contact100-form-title">Contact Us</span>
                <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-               <input class="input100" type="text" name="name" id="fname" placeholder="Full Name:">
+
+               <input class="input100" type="text" name="name" id="fname" placeholder="Full Name:" required>
                <span class="focus-input100"></span>
             </div>
             <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
-                <input class="input100" type="text" name="email" placeholder="Email:">
+                <input class="input100" type="text" name="email" placeholder="Email:" required>
                 <span class="focus-input100"></span>
             </div>
             <div class="wrap-input100 validate-input" data-validate="Please enter your message">
-                <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                <textarea class="input100" name="message" placeholder="Your Message:" required></textarea>
                 <span class="focus-input100"></span>
             </div>
                <div class="container-contact100-form-btn">

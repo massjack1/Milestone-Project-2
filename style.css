@@ -92,6 +92,9 @@ a.info-link{
 section.contact-section{
   padding: 300px 0;
 }
+div.wrap-contact100 {
+  text-align: center;
+}
 /* Contact form - From a tutorial (Credits can be found in the Readme.md file) */
 
 input {
@@ -153,22 +156,6 @@ button:hover{
   position: relative;
   z-index: 1;
 }
-.container-contact100::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(93,84,240,0.5);
-  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  pointer-events: none;
-}
 .wrap-contact100 {
   width: 800px;
   background: #fff;
@@ -192,7 +179,7 @@ button:hover{
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
-  text-align: left;
+  text-align: center;
   padding-bottom: 34px;
 }
 .wrap-input100 {
@@ -207,9 +194,8 @@ button:hover{
   display: block;
   width: 100%;
   background: transparent;
-  font-family: SourceSansPro-Bold;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
-  color: #4b2354;
   line-height: 1.2;
 }
 input.input100 {
@@ -232,4 +218,56 @@ textarea.input100 {
   pointer-events: none;
   border-radius: 20px;
   box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.input100:focus + .focus-input100{
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+  -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+  -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.15);
+}
+.container-contact100-form-btn{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 43px;
+}
+.contact100-form-btn{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 160px;
+  height: 42px;
+  background-color: #806161;
+  border-radius: 12px;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.contact100-form-btn:hover{
+  color: gray;
 }
