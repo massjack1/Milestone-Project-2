@@ -53,23 +53,27 @@
 </div>
     </section>                               
     <section class="contact-section">
-       <div class="container">
-           <h1>Contact</h1>
-           <form action="">
-               <label for="firstname">First name:</label>
-               <input type="text" name="fname" id="fname" placeholder="First name...">
-
-               <label for="lastname">Last Name:</label>
-               <input type="text" name="lname" id="lname" placeholder="Last Name...">
-
-               <label for="email">Email:</label>
-               <input type="email" name="email" id="email" placeholder="Enter your Email...">
-
-               <label for="message">Message:</label>
-               <textarea name="message" id="message" placeholder="Feel free to write your message here..." cols="30" rows="10"></textarea>
-               <input type="submit" name="submit" id="submit">
-           </form>
-       </div> 
+       <div class="wrap-contact100">
+           <form class="contact100-form validate-form">
+               <span class="contact100-form-title">Contact Us</span>
+               <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+               <input class="input100" type="text" name="name" id="fname" placeholder="Full Name:">
+               <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                <input class="input100" type="text" name="email" placeholder="Email:">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                <textarea class="input100" name="message" placeholder="Your Message"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+               <div class="container-contact100-form-btn">
+                   <button class="contact100-form-btn">
+                       Send Message
+                   </button>
+               </div>
+           </form> 
     </section> 
     <footer>
 
