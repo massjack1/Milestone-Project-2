@@ -15,7 +15,7 @@
     <title>Solar Power</title>
 </head>
 <body>
-    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+    < class="cover-container d-flex w-100 h-100 mx-auto flex-column">
     <!--Navigation-->
     <div class="navbar fixed-top">
         <div class="container">
@@ -72,30 +72,20 @@ Given that solar panels can only produce power when the sun is shining, storing 
 </div>
     </section>                               
     <section id="contact" class="contact-section">
-        <div class="contact-form">
-       <div class="wrap-contact100">
            <form class="contact100-form validate-form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
-               <span class="contact100-form-title">Contact Us</span>
-               <div class="wrap-input100 validate-input" data-validate="Please enter your name">
-
-               <input class="input100" type="text" name="name" id="fname" placeholder="Full Name:" required>
-               <span class="focus-input100"></span>
-            </div>
-            <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
-                <input class="input100" type="text" name="email" placeholder="Email:" required>
-                <span class="focus-input100"></span>
-            </div>
-            <div class="wrap-input100 validate-input" data-validate="Please enter your message">
-                <textarea class="input100" name="message" placeholder="Your Message:" required></textarea>
-                <span class="focus-input100"></span>
-            </div>
-               <div class="container-contact100-form-btn">
-                   <button class="contact100-form-btn">
-                       Send Message
-                   </button>
-               </div>
-           </form> 
+            <div class="form-title">Contact</div>
+            <div class="form-floating">
+            <input type="text" name="name" id="name" placeholder="Enter Your Name..." required>
         </div>
+        <div class="form-floating">
+            <input type="email" name="email" id="email" aria-describedby="emailHelp" placeholder="Enter Your Email here:" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div>
+            <textarea name="message" id="message" placeholder="Enter your Message here..." required></textarea>
+        </div>
+        <button class="w-30 btn btn-lg btn-primary" type="submit">Submit</button>
+    </form>
     </section> 
     <!--Footer inspiration from last project-->
     <footer class="footer bg bg-dark">
