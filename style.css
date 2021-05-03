@@ -9,7 +9,7 @@ body {
   background: #c87155;
   padding: 1em;
 }
-.navbar .logo {
+.navbar .navbar-brand {
   font-family: abril fatface;
   font-size: 25px;
   text-decoration: none;
@@ -78,6 +78,8 @@ div.toggle-container {
   display: grid;
   align-items: right;
   justify-items: right;
+  padding: 0px 20px 0px 40px;
+  
 }
 /* About Section */
 img.solar-img {
