@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 /* Navigation */
 .navbar {
@@ -108,9 +109,17 @@ section.contact-section {
   padding: 300px 0;
   background-color: #999;
 }
-div.wrap-contact100 {
-  text-align: center;
+
+form div.container {
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0 0 0 / 50%);
+  width: 100%;
+  padding: 15px;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  z-index: 1;
 }
+
 /* Footer */
 footer {
   padding: 10px;
