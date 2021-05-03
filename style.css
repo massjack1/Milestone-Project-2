@@ -74,6 +74,11 @@ section.hero {
 .hero-cta:hover {
   color: gray;
 }
+div.toggle-container {
+  display: grid;
+  align-items: right;
+  justify-items: right;
+}
 /* About Section */
 img.solar-img {
   width: 500px;
@@ -132,7 +137,7 @@ div.mb-3{
   border: none;
   
 }
-input, textarea{
+input#name.area1, input#email.area2, textarea{
   height: 62px;
   padding: 0 20px 0 23px;
   outline: none;
