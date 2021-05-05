@@ -8,6 +8,9 @@ body {
 .navbar {
   padding: 1em;
 }
+navbar-toggler {
+  cursor: pointer;
+}
 .navbar .navbar-brand {
   font-family: abril fatface;
   font-size: 25px;
