@@ -1,6 +1,6 @@
 # Solar Power Website
 
-Every wondered why Solar Energy has the power to power up the future?
+Ever wondered why Solar Energy has the power to power up the future?
 
 ## User Experience
 
@@ -18,8 +18,17 @@ The Website could also have a benefit for companies looking for ideas & possible
 ## Features
 
 ## Technologies Used
+* HTML
+* CSS
+* JavaScript
 
 ## Frameworks, Libraries & Programs Used
+1. Bootstrap
+2. Adobe XD (For Wireframes & Prototypes)
+3. Github
+4. VS Code
+5. Git
+6. Google Fonts
 
 ## Credit
 
