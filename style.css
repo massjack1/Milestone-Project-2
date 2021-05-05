@@ -16,12 +16,6 @@ body {
   color: #fff;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
-img#menu-cta.menu {
-  display: none;
-}
-img#exit.exit {
-  display: none;
-}
 a {
   color: #fff;
 }
