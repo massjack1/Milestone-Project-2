@@ -4,6 +4,18 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+.theme-brown{
+  --color-primary: #c87155;
+  --color-secondary: #806161;
+  --color-contact-bg: #999999;
+  --color-footer-icons: #bfa1a1;
+}
+.theme-purple{
+  --color-primary: linear-gradient(41deg, #4f1aa6, #55249d, #ffffff);
+  --color-secondary: #fce940;
+  --color-contact-bg: #654c4c;
+  --color-footer-icons: #bda429;    
+}
 /* Navigation */
 .navbar {
   padding: 1em;
