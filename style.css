@@ -79,6 +79,7 @@ div.toggle-container {
 }
 /* About Section */
 img.solar-img {
+  max-width: 100%;
   width: 500px;
   height: auto;
 }
