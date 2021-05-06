@@ -20,6 +20,7 @@ body {
 /* Navigation */
 .navbar {
   padding: 1em;
+  background-color: var(--color-primary);
 }
 navbar-toggler {
   cursor: pointer;
