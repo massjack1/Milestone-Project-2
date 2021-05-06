@@ -4,17 +4,18 @@ body {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
-.theme-brown{
+/* Classes representing the theme colors */
+.theme-brown {
   --color-primary: #c87155;
   --color-secondary: #806161;
   --color-contact-bg: #999999;
   --color-footer-icons: #bfa1a1;
 }
-.theme-purple{
+.theme-purple {
   --color-primary: linear-gradient(41deg, #4f1aa6, #55249d, #ffffff);
   --color-secondary: #fce940;
   --color-contact-bg: #654c4c;
-  --color-footer-icons: #bda429;    
+  --color-footer-icons: #bda429;
 }
 /* Navigation */
 .navbar {
@@ -68,10 +69,10 @@ section {
   min-height: 100vh;
 }
 section.hero {
-  background-color: #c87155;
+  background-color: var(--color-primary);
 }
 .hero-cta {
-  background-color: #806161;
+  background-color: var(--color-secondary);
   font-size: 17px;
   padding: 15px 27px;
   border-radius: 12px;
@@ -87,7 +88,6 @@ div.toggle-container {
   align-items: right;
   justify-items: right;
   padding: 0px 20px 0px 40px;
-  
 }
 /* About Section */
 img.solar-img {
@@ -95,7 +95,7 @@ img.solar-img {
   width: 500px;
   height: auto;
 }
-p.info p.info2{
+p.info p.info2 {
   font-family: "Poppins", sans-serif;
 }
 section.info-section {
@@ -106,24 +106,24 @@ section.info-section {
 .info-section h1 {
   font-size: 60px;
   font-family: "Abril Fatface", cursive;
-  color: #806161;
+  color: var(--color-secondary);
 }
 a.info-link {
-  color: #806161;
+  color: var(--color-secondary);
 }
-h3{
+h3 {
   padding: 120px 0;
-  font-family: "Poppins",sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding-bottom: 30px;
 }
 .info-section p {
-  padding: 11px 0; 
+  padding: 11px 0;
 }
 /* Contact Section */
 section.contact-section {
   padding: 300px 0;
-  background-color: #999;
+  background-color: var(--color-contact-bg);
 }
 
 form div.container {
@@ -138,17 +138,18 @@ form div.container {
 div.form-title {
   font-family: "Abril Fatface", cursive;
   font-size: 60px;
-  color: #806161;
+  color: var(--color-secondary);
   padding: 0px 0px 34px;
   margin: 0px 0px 8px;
 }
-div.mb-3{
+div.mb-3 {
   width: 100%;
   margin-bottom: 30px;
   border: none;
-  
 }
-input#name.area1, input#email.area2, textarea{
+input#name.area1,
+input#email.area2,
+textarea {
   height: 62px;
   padding: 0 20px 0 23px;
   outline: none;
@@ -168,16 +169,16 @@ textarea {
   min-height: 199px;
 }
 
-input#name{
+input#name {
   display: block;
   width: 100%;
   background: transparent;
   color: aqua;
   line-height: 1.2;
-  border-radius: 20px;  
+  border-radius: 20px;
 }
 
-input#email{
+input#email {
   display: block;
   width: 100%;
   background: transparent;
@@ -193,13 +194,13 @@ textarea#message {
   border-radius: 20px;
 }
 button.form-btn {
-  background-color: #806161;
+  background-color: var(--color-secondary);
   font-size: 17px;
   padding: 12px 30px;
   border-radius: 20px;
   display: inline-block;
   color: #fff;
-  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%); 
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
   border: none;
 }
 button.form-btn:hover {
@@ -215,7 +216,7 @@ footer {
   padding: 10px;
 }
 
-.my-footer{
+.my-footer {
   text-align: center;
   padding: 15px;
 }
@@ -228,18 +229,17 @@ ul.list-inline {
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
-  cursor: pointer;  
+  cursor: pointer;
 }
-ul.list-inline.social-links i:hover{
-  color: #BFA1A1;
+ul.list-inline.social-links i:hover {
+  color: var(--color-footer-icons);
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
 
-div.text-center.p-3{
+div.text-center.p-3 {
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
-
