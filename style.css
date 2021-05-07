@@ -84,7 +84,7 @@ section.hero {
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 .hero-cta:hover {
-  color: gray;
+  color: var(--color-button-hover);
 }
 button{
   background-color: var(--color-secondary);
