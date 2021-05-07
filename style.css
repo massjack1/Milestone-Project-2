@@ -84,11 +84,18 @@ section.hero {
 .hero-cta:hover {
   color: gray;
 }
-.switch {
- display: inline-block;
-
-
+button{
+  background-color: var(--color-secondary);
+  font-size: 17px;
+  padding: 13px 27px;
+  border-radius: 12px;
+  display: inline-block;
+  color: #fff;
 }
+button:hover {
+  background-color: rgb(68, 168, 175);
+}
+
 /* About Section */
 img.solar-img {
   max-width: 100%;
