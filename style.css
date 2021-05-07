@@ -84,11 +84,10 @@ section.hero {
 .hero-cta:hover {
   color: gray;
 }
-div.toggle-container {
-  display: grid;
-  align-items: right;
-  justify-items: right;
-  padding: 0px 20px 0px 40px;
+.switch {
+ display: inline-block;
+
+
 }
 /* About Section */
 img.solar-img {
