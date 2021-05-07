@@ -10,12 +10,14 @@ body {
   --color-secondary: #806161;
   --color-contact-bg: #999999;
   --color-footer-icons: #bfa1a1;
+  --color-button-hover: rgb(68, 168, 175);
 }
 .theme-purple {
   --color-primary: linear-gradient(41deg, #4f1aa6, #55249d, #ffffff);
   --color-secondary: #fce940;
   --color-contact-bg: #654c4c;
   --color-footer-icons: #bda429;
+  --color-button-hover: rgb(181, 116, 237);
 }
 /* Navigation */
 .navbar {
@@ -93,7 +95,7 @@ button{
   color: #fff;
 }
 button:hover {
-  background-color: rgb(68, 168, 175);
+  background-color: var(--color-button-hover);
 }
 
 /* About Section */
