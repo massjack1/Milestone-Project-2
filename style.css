@@ -58,11 +58,17 @@ a.nav-link:hover {
   text-transform: uppercase;
 }
 .hero h1 {
-  color: #fff;
-  font-family: "Abril fatface", cursive;
-  font-size: 85px;
-  height: 50%;
-  text-shadow: 0 0.4rem 0.1rem rgb(0 0 0 / 50%);
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  left: 4.64%;
+  right: 43.24%;
+  top: 5.54%;
+  bottom: 93.73%;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 82px;
 }
 p.lead {
   font-weight: 600;
