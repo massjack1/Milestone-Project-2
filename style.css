@@ -52,7 +52,6 @@ a.nav-link:hover {
   padding: 300px 0;
 }
 .hero p {
-  padding: 150px;
   font-family: "Poppins", sans-serif;
   color: rgb(255, 249, 249);
   text-transform: uppercase;
@@ -61,18 +60,21 @@ a.nav-link:hover {
   color: #000;
   font-family: "Roboto", sans-serif;
   position: absolute;
-  left: 4.64%;
-  right: 43.24%;
-  top: 5.54%;
-  bottom: 93.73%;
+  text-align: start;
+  width: 1010px;
+  height:252px;
+  top: 263px;
+  left: 78px;
   font-size: 70px;
   font-style: normal;
   font-weight: normal;
   line-height: 82px;
 }
 p.lead {
-  font-weight: 600;
-  font-size: 35px;
+ 
+  font-weight: norrmal;
+  font-size: 28px;
+  text-align: start;
 }
 section {
   min-height: 100vh;
