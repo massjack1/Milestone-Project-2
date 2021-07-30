@@ -61,17 +61,16 @@ a.nav-link:hover {
   font-family: "Roboto", sans-serif;
   position: absolute;
   text-align: start;
-  width: 1010px;
-  height:252px;
-  top: 263px;
+  width: 800px;
+  height:50px;
+  top:270px;
   left: 78px;
-  font-size: 70px;
+  font-size: 50px;
   font-style: normal;
   font-weight: normal;
-  line-height: 82px;
+  line-height: 50px;
 }
 p.lead {
- 
   font-weight: norrmal;
   font-size: 28px;
   text-align: start;
