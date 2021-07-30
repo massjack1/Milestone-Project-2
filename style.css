@@ -71,14 +71,8 @@ a.nav-link:hover {
   font-weight: normal;
   line-height: 50px;
 }
-p.lead {
-  font-weight: normal;
-  font-size: 28px;
-  text-align: start;
-
-}
 section {
-  min-height: 30vh;
+  min-height: 80vh;
 }
 section.hero {
   background-color: var(--color-primary);
