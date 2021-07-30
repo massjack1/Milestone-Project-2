@@ -56,7 +56,7 @@ a.nav-link:hover {
   color: rgb(255, 249, 249);
   text-transform: uppercase;
 }
-.hero-titel {
+.hero-titel{
   color: #fff;
   text-shadow: 0 0.10rem 0.3rem rgb(0 0 1 / 50%);
   font-family: "Poppins", sans-serif;
@@ -71,6 +71,12 @@ a.nav-link:hover {
   font-weight: normal;
   line-height: 50px;
 }
+.lead {
+width: 600px;
+font-family: "Roboto", sans-serif;
+text-transform: uppercase;
+font-weight: normal;
+}
 section {
   min-height: 80vh;
 }
@@ -80,7 +86,7 @@ section.hero {
 .hero-cta {
   background-color: var(--color-secondary);
   font-size: 17px;
-  padding: 15px 27px;
+  padding: 4px 27px;
   border-radius: 12px;
   display: inline-block;
   text-decoration: none;
@@ -92,7 +98,7 @@ section.hero {
 button{
   background-color: var(--color-secondary);
   font-size: 17px;
-  padding: 15px 27px;
+  padding: 4px 27px;
   border-radius: 12px;
   display: inline-block;
   border: none;
@@ -116,9 +122,9 @@ section.info-section {
   padding: 270px 0;
   background-color: #ffffff;
 }
-.info-section h1 {
+.info-section h2 {
   font-size: 60px;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Poppins", sans-serif;
   color: var(--color-secondary);
 }
 a.info-link {
@@ -149,7 +155,7 @@ form div.container {
   z-index: 1;
 }
 div.form-title {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Poppins", sans-serif;
   font-size: 60px;
   color: var(--color-secondary);
   padding: 0px 0px 34px;
