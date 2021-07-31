@@ -51,10 +51,12 @@ a.nav-link:hover {
   text-align: center;
   padding: 300px 0;
 }
-.hero p {
+h3.hero-p {
   font-family: "Poppins", sans-serif;
-  color: rgb(255, 249, 249);
+  color: #fff;
   text-transform: uppercase;
+  font-weight: normal;
+  position: absolute;
 }
 .hero-titel{
   color: #fff;
@@ -69,13 +71,7 @@ a.nav-link:hover {
   font-size: 50px;
   font-style: medium;
   font-weight: normal;
-  line-height: 50px;
-}
-.lead {
-width: 600px;
-font-family: "Roboto", sans-serif;
-text-transform: uppercase;
-font-weight: normal;
+  line-height: 60px;
 }
 section {
   min-height: 80vh;
@@ -114,11 +110,13 @@ img.solar-img {
   width: 500px;
   height: auto;
 }
-p.info p.info2 {
+p.info {
+  font-family: "Poppins", sans-serif;
+}
+p.info2 {
   font-family: "Poppins", sans-serif;
 }
 section.info-section {
-  text-align: center;
   padding: 270px 0;
   background-color: #ffffff;
 }
@@ -136,8 +134,18 @@ h4 {
   font-weight: 600;
   padding-bottom: 30px;
 }
-.info-section p {
-  padding: 11px 0;
+#about.info-section {
+  padding: 100px 0;
+}
+.float-container {
+  padding: 20px;
+}
+.float-child {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
 }
 /* Contact Section */
 section.contact-section {
