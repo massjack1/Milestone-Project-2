@@ -130,8 +130,8 @@ section.info-section {
 a.info-link {
   color: var(--color-secondary);
 }
-h3 {
-  padding: 120px 0;
+h4 {
+  padding: 110px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding-bottom: 30px;
