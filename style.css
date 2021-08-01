@@ -14,6 +14,8 @@ body {
   --color-in:#ffffff;
   --color-text:#ffffff;
   --color-info-bg:#ffffff;
+  --color-info-title:#000000;
+  --color-info-text: #000000d8;
   --color-contact-form: #ffffff;
   --color-button-hover: rgb(68, 168, 175);
 }
@@ -26,7 +28,9 @@ body {
   --color-in:#C58989;
   --color-text:#f0e2e2;
   --color-info-bg:#4E3434;
-  --color-contact-form: #d3d3d1d2;
+  --color-info-title:#c58989;
+  --color-info-text:#c58989;
+  --color-contact-form: #ffffffa9;
   --color-button-hover: rgb(181, 116, 237);
 }
 /* Navigation */
@@ -122,11 +126,11 @@ img.solar-img {
 }
 p.info {
   font-family: "Poppins", sans-serif;
-  color: var(--color-text);
+  color: var(--color-info-text);
 }
 p.info2 {
   font-family: "Poppins", sans-serif;
-  color: var(--color-text);
+  color: var(--color-info-text);
 }
 section.info-section {
   padding: 270px 0;
@@ -135,17 +139,17 @@ section.info-section {
 .info-section h2 {
   font-size: 60px;
   font-family: "Poppins", sans-serif;
-  color: var(--color-text);
+  color: var(--color-secondary);
 }
 a.info-link {
-  color: var(--color-in);
+  color: var(--color-secondary);
 }
 h4 {
   padding: 110px 0;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   padding-bottom: 30px;
-  color: var(--color-out);
+  color: var(--color-info-title);
 }
 #about.info-section {
   padding: 100px 0;
@@ -240,7 +244,7 @@ button.form-btn {
   padding: 12px 30px;
   border-radius: 20px;
   display: inline-block;
-  color: var(--color-out);
+  color: var(--color-text);
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
   border: none;
 }
