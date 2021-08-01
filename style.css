@@ -83,7 +83,6 @@ h3.hero-p {
   top:270px;
   left: 78px;
   font-size: 50px;
-  font-style: medium;
   font-weight: normal;
   line-height: 60px;
 }
@@ -283,8 +282,30 @@ ul.list-inline.social-links i:hover {
   -webkit-transition: all 0.35s ease-in-out;
   -o-transition: all 0.35s ease-in-out;
 }
-
 div.text-center.p-3 {
   font-family: "Poppins", sans-serif;
   color: var(--color-text);
+}
+/* Media Queries */
+@media only screen and (max-width: 768px){
+.navbar{
+  padding: 1rem;
+}
+.hero-titel{
+  font-size: 40px;
+}
+@media screen and (max-width: 480px) {
+  .navbar-toggler{
+    height: 45px;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 1024) {
+
+}
+@media screen and (min-width: 992px){
+
+}
+@media screen and (min-width: 580px){
+
 }
