@@ -10,13 +10,23 @@ body {
   --color-secondary: #806161;
   --color-contact-bg: #999999;
   --color-footer-icons: #bfa1a1;
+  --color-out:#ffffff;
+  --color-in:#ffffff;
+  --color-text:#ffffff;
+  --color-info-bg:#ffffff;
+  --color-contact-form: #ffffff;
   --color-button-hover: rgb(68, 168, 175);
 }
-.theme-purple {
-  --color-primary: linear-gradient(41deg, #4f1aa6, #55249d, #ffffff);
-  --color-secondary: #fce940;
-  --color-contact-bg: #654c4c;
-  --color-footer-icons: #bda429;
+.theme-dark {
+  --color-primary: #292525;
+  --color-secondary: #FFAEAE;
+  --color-contact-bg: #f6f6f6;
+  --color-footer-icons: #fdf1b1;
+  --color-out:#FFAEAE;
+  --color-in:#C58989;
+  --color-text:#f0e2e2;
+  --color-info-bg:#4E3434;
+  --color-contact-form: #d3d3d1d2;
   --color-button-hover: rgb(181, 116, 237);
 }
 /* Navigation */
@@ -28,23 +38,23 @@ navbar-toggler {
   cursor: pointer;
 }
 .navbar .navbar-brand {
-  font-family: abril fatface;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   text-decoration: none;
   font-weight: bold;
-  color: #fff;
+  color: var(--color-out);
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 a {
-  color: #fff;
+  color: var(--color-text);
 }
 a.nav-link {
-  color: white;
+  color: var(--color-text);
   font-size: 22px;
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
 a.nav-link:hover {
-  color: rgb(94, 91, 91);
+  color: rgb(255, 255, 255);
 }
 /* Hero Section */
 .hero {
@@ -53,13 +63,13 @@ a.nav-link:hover {
 }
 h3.hero-p {
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: var(--color-in);
   text-transform: uppercase;
   font-weight: normal;
   position: absolute;
 }
 .hero-titel{
-  color: #fff;
+  color: var(--color-out);
   text-shadow: 0 0.10rem 0.3rem rgb(0 0 1 / 50%);
   font-family: "Poppins", sans-serif;
   position: absolute;
@@ -98,7 +108,7 @@ button{
   border-radius: 12px;
   display: inline-block;
   border: none;
-  color: #fff;
+  color:var(--color-text);
 }
 button:hover {
   background-color: var(--color-button-hover);
@@ -118,15 +128,15 @@ p.info2 {
 }
 section.info-section {
   padding: 270px 0;
-  background-color: #ffffff;
+  background-color: var(--color-info-bg);
 }
 .info-section h2 {
   font-size: 60px;
   font-family: "Poppins", sans-serif;
-  color: var(--color-secondary);
+  color: var(--color-text);
 }
 a.info-link {
-  color: var(--color-secondary);
+  color: var(--color-in);
 }
 h4 {
   padding: 110px 0;
@@ -154,7 +164,7 @@ section.contact-section {
 }
 
 form div.container {
-  background: #fff;
+  background: var(--color-contact-form);
   box-shadow: 0px 0px 10px rgba(0 0 0 / 50%);
   width: 100%;
   padding: 15px;
@@ -217,6 +227,7 @@ textarea#message {
   display: block;
   width: 100%;
   background: transparent;
+  color:aqua;
   line-height: 1.2;
   border-radius: 20px;
 }
@@ -226,7 +237,7 @@ button.form-btn {
   padding: 12px 30px;
   border-radius: 20px;
   display: inline-block;
-  color: #fff;
+  color: var(--color-out);
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
   border: none;
 }
@@ -251,7 +262,7 @@ footer {
 ul.list-inline {
   padding: 12px 0;
   font-size: 2rem;
-  color: #fff;
+  color: var(--color-text);
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -268,5 +279,5 @@ ul.list-inline.social-links i:hover {
 
 div.text-center.p-3 {
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: var(--color-text);
 }
