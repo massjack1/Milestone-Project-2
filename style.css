@@ -5,7 +5,7 @@ body {
   text-align: center;
 }
 /* Classes representing the theme colors */
-.theme-brown {
+.theme-light {
   --color-primary: #c87155;
   --color-secondary: #806161;
   --color-contact-bg: #999999;
