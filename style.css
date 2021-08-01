@@ -62,7 +62,6 @@ a.nav-link:hover {
 }
 /* Hero Section */
 .hero {
-  text-align: center;
   padding: 300px 0;
 }
 h3.hero-p {
@@ -292,7 +291,14 @@ div.text-center.p-3 {
   padding: 1rem;
 }
 .hero-titel{
-  font-size: 40px;
+  position: absolute;
+  width: 280px;
+  height: 85px;
+  font-family: "Roboto",sans-serif;
+  font-style:normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 26px;
 }
 @media screen and (max-width: 480px) {
   .navbar-toggler{
