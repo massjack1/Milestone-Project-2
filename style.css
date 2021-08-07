@@ -8,9 +8,9 @@ body::before {
 }
 /*  Classes representing the theme colors */
 .theme-light {
-  --color-primary: #c87155;
-  --color-secondary: #806161;
-  --color-contact-bg: #999999;
+  --body-bg: #fff;
+  --color-primary: #806161;
+  --color-secondary: #999999;
   --color-footer-icons: #bfa1a1;
   --color-out:#ffffff;
   --color-in:#ffffff;
@@ -19,7 +19,7 @@ body::before {
   --color-info-title:#000000;
   --color-info-text: #000000d8;
   --color-contact-form: #ffffff;
-  --color-button-hover: rgb(68, 168, 175);
+  --color-button-hover: rgb(168, 99, 195);
 }
 .theme-dark {
   --color-primary: #292525;
@@ -35,67 +35,8 @@ body::before {
   --color-contact-form: #ffffffa9;
   --color-button-hover: rgb(181, 116, 237);
 }
-  Navigation 
-.navbar {
-  padding: 1em;
-  background-color: var(--color-primary);
-}
-navbar-toggler {
-  cursor: pointer;
-}
-.navbar .navbar-brand {
-  font-family: "Poppins", sans-serif;
-  font-size: 23px;
-  text-decoration: none;
-  font-weight: normal;
-  color: var(--color-out);
-  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
-}
-a {
-  color: var(--color-text);
-}
-a.nav-link {
-  color: var(--color-text);
-  font-size: 22px;
-  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
-}
-a.nav-link:hover {
-  color: rgb(255, 255, 255);
-}
- Hero Section 
-.hero {
-  padding: 300px 0;
-}
-h3.hero-p {
-  font-family: "Poppins", sans-serif;
-  color: var(--color-in);
-  text-transform: uppercase;
-  font-weight: normal;
-  position: absolute;
-}
-.hero-titel{
-  color: var(--color-out);
-  text-shadow: 0 0.10rem 0.3rem rgb(0 0 1 / 50%);
-  font-family: "Poppins", sans-serif;
-  position: absolute;
-  text-align: start;
-  width: 800px;
-  height:50px;
-  top:270px;
-  left: 78px;
-  font-size: 50px;
-  font-weight: normal;
-  line-height: 60px;
-}
-section {
-  min-height: 100vh;
-}
-*/
-section.hero {
-  background-color: var(--color-primary);
-}
 .hero-cta {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   font-size: 17px;
   padding: 4px 27px;
   border-radius: 12px;
@@ -106,19 +47,9 @@ section.hero {
 .hero-cta:hover {
   color: var(--color-button-hover);
 }
-button{
-  background-color: var(--color-secondary);
-  font-size: 17px;
-  padding: 4px 27px;
-  border-radius: 12px;
-  display: inline-block;
-  border: none;
-  color:var(--color-text);
+a.hero-cta{
+  color: var(--color-in);
 }
-button:hover {
-  background-color: var(--color-button-hover);
-}
-
  About Section 
 img.solar-img {
   max-width: 100%;
