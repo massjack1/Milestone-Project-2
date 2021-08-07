@@ -36,6 +36,9 @@ The Website could also have a benefit for companies looking for ideas & possible
  * File that helped me create the Switch button & inspiration for the [Theme switch](https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2) option.
 
  * Inspiration and source code for the image [View here](https://www.freepik.com/free-vector/active-people-bikes-windmills-house-with-solar-panel-rooftop-flat-illustration_11235236.htm#page=1&query=solar%20panel&position=1) & bootstrap file that inspired me for the hero section layout [View here](https://getbootstrap.com/docs/5.0/examples/heroes/).
+
+ * Files that helped me create the Feature section: [Bootstrap](https://getbootstrap.com/docs/5.1/components/card/#card-layout) &
+ [Fortum](https://www.fortum.com/about-us/our-company/our-energy-production/solar-power-unlimited-source-energy).
 ### Media
 
 ## Testing
