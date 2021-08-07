@@ -39,6 +39,8 @@ The Website could also have a benefit for companies looking for ideas & possible
 
  * Files that helped me create the Feature section: [Bootstrap](https://getbootstrap.com/docs/5.1/components/card/#card-layout) &
  [Fortum](https://www.fortum.com/about-us/our-company/our-energy-production/solar-power-unlimited-source-energy).
+
+ * [Carousel](https://getbootstrap.com/docs/5.1/components/carousel/#with-controls) & [Card](https://getbootstrap.com/docs/5.1/components/card/#header-and-footer) bootstrap designs.
 ### Media
 
 ## Testing
