@@ -11,6 +11,9 @@ body::before {
   --body-bg: #fff;
   --color-primary: #806161;
   --color-secondary: #999999;
+  --color-link: #000;
+  --color-a: #fff;
+  --btn-hover: #a37777;
   --color-footer-icons: #bfa1a1;
   --color-out:#ffffff;
   --color-in:#ffffff;
@@ -22,7 +25,8 @@ body::before {
   --color-button-hover: rgb(168, 99, 195);
 }
 .theme-dark {
-  --color-primary: #292525;
+  --body-bg:#000;
+  --color-primary: #806161;
   --color-secondary: #FFAEAE;
   --color-contact-bg: #f6f6f6;
   --color-footer-icons: #fdf1b1;
@@ -47,18 +51,18 @@ body::before {
   border: none;
 }
 .hero-cta:hover {
-  background-color:#a37777;
+  background-color:var(--btn-hover);
 }
 a.hero-cta{
-  color: #fff;
+  color: var(--color-a);
 }
 /* Feature Section */
 a {
  text-decoration: none;
- color: #000000; 
+ color: var(--color-link); 
 }
 a:hover{
-  color:#000;
+  color:var(--color-link);
 }
 /* Research Section */
 .btn.btn-primary {
