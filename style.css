@@ -50,7 +50,15 @@ body::before {
 a.hero-cta{
   color: var(--color-in);
 }
- About Section 
+/* Feature Section */
+a {
+ text-decoration: none;
+ color: #000000; 
+}
+a:hover{
+  color: rgb(113, 3, 109);
+}
+ /* About Section */ 
 img.solar-img {
   max-width: 100%;
   width: 500px;
