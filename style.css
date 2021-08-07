@@ -35,7 +35,7 @@ body::before {
   --color-contact-form: #ffffffa9;
   --color-button-hover: rgb(181, 116, 237);
 }
- /* Navigation 
+  Navigation 
 .navbar {
   padding: 1em;
   background-color: var(--color-primary);
@@ -45,9 +45,9 @@ navbar-toggler {
 }
 .navbar .navbar-brand {
   font-family: "Poppins", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: normal;
   color: var(--color-out);
   text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
 }
