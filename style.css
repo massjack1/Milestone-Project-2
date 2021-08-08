@@ -72,7 +72,7 @@ a.hero-cta{
 .card.h-100{
   background-color: var(--color-f);
 }
-h5.card-title, p.card-text {
+.card-title, p.card-text {
   color: var(--color-link);
 }
 a {
@@ -90,6 +90,10 @@ a:hover{
 }
 a.btn.btn.btn-primary:hover {
   background-color: var(--btn-hover);
+}
+/* FAQs Section */
+button.accordion-button:hover{
+  color: var(--btn-hover);
 }
 /*Theme Section*/
  /*Contact Section */
