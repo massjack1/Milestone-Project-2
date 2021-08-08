@@ -14,7 +14,6 @@ body::before {
   --color-link: #000;
   --color-a: #fff;
   --btn-hover: #a37777;
-  --color-footer-icons: #bfa1a1;
   --color-out:#ffffff;
   --color-in:#ffffff;
   --color-text:#ffffff;
@@ -158,7 +157,7 @@ button.form-btn {
   border: none;
 }
 button.form-btn:hover {
-  background-color: var(--color-button-hover);
+  background-color: #a37777;
 }
 div.container-btn {
   padding-top: 30px;
@@ -186,7 +185,7 @@ ul.list-inline {
   cursor: pointer;
 }
 ul.list-inline.social-links i:hover {
-  color: var(--color-footer-icons);
+  color: var(--color-primary);
   transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -196,44 +195,3 @@ div.text-center.p-3 {
   font-family: "Poppins", sans-serif;
   color: var(--color-text);
 }
-
-/* Media Queries 
-@media only screen and (max-width: 768px){
-.navbar{
-  padding: 1rem;
-}
-.hero-titel{
-  position: absolute;
-  width: 400px;
-  height: 85px;
-  font-weight: 500;
-  font-size: 37px;
-  line-height: 40px;
-}
-.hero-p{
-width: 280px;
-height: 70px;
-}
-button#switch, a.hero-cta{
-  padding: 3px 20px;
-  font-size: 15px;
-}
-h2{
-
-}
-@media screen and (max-width: 480px) {
-  .navbar-toggler{
-    height: 45px;
-    width: 70px;
-  }
-}
-@media screen and (max-width: 1024) {
-
-}
-@media screen and (min-width: 992px){
-
-}
-@media screen and (min-width: 580px){
-
-}
-*/
