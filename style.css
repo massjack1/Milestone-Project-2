@@ -21,14 +21,11 @@ body::before {
   --color-info-title:#000000;
   --color-info-text: #000000d8;
   --color-contact-form: #ffffff;
-  --color-button-hover: rgb(168, 99, 195);
 }
 .theme-dark {
   --body-bg:#000;
   --color-primary: #806161;
   --color-secondary: #FFAEAE;
-  --color-contact-bg: #f6f6f6;
-  --color-footer-icons: #fdf1b1;
   --color-out:#FFAEAE;
   --color-in:#C58989;
   --color-text:#f0e2e2;
@@ -36,7 +33,6 @@ body::before {
   --color-info-title:#FFAEAE;
   --color-info-text:#c58989;
   --color-contact-form: #ffffffa9;
-  --color-button-hover: rgb(181, 116, 237);
 }
 /* Hero Showcase Section */
 .hero-cta {
@@ -70,12 +66,11 @@ a:hover{
   padding: 4px 27px;
 }
 a.btn.btn.btn-primary:hover {
-  background-color: #a37777;
+  background-color: var(--btn-hover);
 }
  /*Contact Section */
 section.contact-section {
   padding: 300px 0;
-  background-color: var(--color-contact-bg);
 }
 
 form div.container {
@@ -142,7 +137,7 @@ textarea#message {
   display: block;
   width: 100%;
   background: transparent;
-  color:#000;
+  color:var(--color-info-text);
   line-height: 1.2;
   border-radius: 20px;
 }
@@ -157,7 +152,7 @@ button.form-btn {
   border: none;
 }
 button.form-btn:hover {
-  background-color: #a37777;
+  background-color: var(--btn-hover);
 }
 div.container-btn {
   padding-top: 30px;

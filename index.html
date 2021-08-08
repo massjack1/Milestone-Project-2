@@ -227,6 +227,27 @@
               </div>
         </div>
     </section>
+    <section>
+      <div class="container p-5">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title pb-3">Add More Traits To Your Liking!</h5>
+          <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">More Options</a>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Switch Themes</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Customize this informative website for more comfort.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-primary" id="switch" onclick="toggleTheme()">Magic Button</button>
+        </div>
+      </div>
+      </div>
+    </section>
     <!--Contact Section-->                            
     <section id="contact" class="contact-section p-5 text-center">
         <div class="container">
@@ -249,7 +270,29 @@
     </div>
     </form>
     </div>
-    </section>  
+    </section>
+    <!--Google Maps API
+    <div class="container">
+    <h3 class="text-center p-5">Google Maps</h3>
+
+<div id="googleMap" 
+  style="width:100%;
+   height:400px;">
+</div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> 
+--> 
     <!--Footer inspiration from last project-->
     <footer class="footer bg bg-dark">
         <div class="container-fluid">
