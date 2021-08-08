@@ -73,7 +73,6 @@ a:hover{
 a.btn.btn.btn-primary:hover {
   background-color: #a37777;
 }
-/* 
  /*Contact Section */
 section.contact-section {
   padding: 300px 0;
@@ -144,14 +143,14 @@ textarea#message {
   display: block;
   width: 100%;
   background: transparent;
-  color:aqua;
+  color:#000;
   line-height: 1.2;
   border-radius: 20px;
 }
 button.form-btn {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   font-size: 17px;
-  padding: 12px 30px;
+  padding: 4px 28px;
   border-radius: 20px;
   display: inline-block;
   color: var(--color-text);
