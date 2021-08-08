@@ -8,33 +8,50 @@ body::before {
 }
 /*  Classes representing the theme colors */
 .theme-light {
-  --body-bg: #fff;
+  --body-hero: #f8f9fa;
+  --body-bg:#fff;
   --color-primary: #806161;
   --color-secondary: #999999;
   --color-link: #000;
+  --color-f: #fff;
   --color-a: #fff;
   --btn-hover: #a37777;
   --color-out:#ffffff;
   --color-in:#ffffff;
   --color-text:#ffffff;
-  --color-info-bg:#ffffff;
-  --color-info-title:#000000;
-  --color-info-text: #000000d8;
   --color-contact-form: #ffffff;
 }
 .theme-dark {
+  --body-hero:#212529;
   --body-bg:#000;
   --color-primary: #806161;
-  --color-secondary: #FFAEAE;
+  --color-secondary: #998e8e;
+  --color-link: #fff;
+  --color-f:#000;
+  --color-a: #fff;
+  --btn-hover: #a37777;
   --color-out:#FFAEAE;
   --color-in:#C58989;
-  --color-text:#f0e2e2;
-  --color-info-bg:#4E3434;
-  --color-info-title:#FFAEAE;
-  --color-info-text:#c58989;
-  --color-contact-form: #ffffffa9;
+  --color-text:#FFF;
+  --color-contact-form: #ffffff;
+}
+/* Navigation */
+.navbar {
+  background-color: var(--body-hero);
+}
+a.nav-link {
+  color: var(--color-link);
+}
+a.nav-link:hover{
+  color: var(--btn-hover);
 }
 /* Hero Showcase Section */
+.theme-1 {
+  background-color: var(--body-bg);
+}
+h1, .lead {
+  color:var(--color-link);
+}
 .hero-cta {
   background-color: var(--color-primary);
   font-size: 17px;
@@ -52,6 +69,12 @@ a.hero-cta{
   color: var(--color-a);
 }
 /* Feature Section */
+.card.h-100{
+  background-color: var(--color-f);
+}
+h5.card-title, p.card-text {
+  color: var(--color-link);
+}
 a {
  text-decoration: none;
  color: var(--color-link); 
@@ -68,9 +91,14 @@ a:hover{
 a.btn.btn.btn-primary:hover {
   background-color: var(--btn-hover);
 }
+/*Theme Section*/
  /*Contact Section */
+ h3 {
+   color: var(--color-link);
+ }
 section.contact-section {
   padding: 300px 0;
+  background-color: var(--body-bg);
 }
 
 form div.container {
