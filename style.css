@@ -190,7 +190,10 @@ div.container-btn {
   padding-top: 30px;
   padding-bottom: 43px;
 }
-
+#map {
+  height: 400px;
+  width: 100%;
+}
 /* Footer */
 footer {
   padding: 10px;
