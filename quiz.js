@@ -28,8 +28,8 @@ function buildQuiz(){
         // add this question and it's answers to the output
         output.push(
             <div class="slide">
-            `<div class="question"> ${currentQuestion.question} </div>
-            <div class="answers"> ${answers.join('')} </div>`
+            <div class="question"> ${currentQuestion.question} </div>
+            <div class="answers"> ${answers.join("")} </div>
             </div>
         );
 
@@ -74,6 +74,26 @@ function showResults(){
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
     }
 
+    function showSlide(n) {
+      slides[currentSlide].classList.remove('active-slide');
+      slides[n].classList.addEventListener('active-slide');
+      currentSlide = n;
+      if (currentSlide === 0){
+        previousButton.style.display = 'none';
+      }
+      else{
+        previousButton.style.display = 'none';
+      }
+      if(currentSlide === slides.length-1){
+        nextButton.style.display = 'none';
+        submitButton.style.display = 'inline-block';
+      }
+      else{
+        nextButton.style.display = 'inline-block';
+        submitButton.style.display = 'none';
+      }
+    }
+
     //Variables
     const quizContainer = document.getElementById('quiz');
     const resultsContainer = document.getElementById('results');
@@ -112,12 +132,18 @@ function showResults(){
     // Kick things off
     buildQuiz();
 
+    // Pagination
+    const previousButton = document.getElementById("previous");
+    const nextButton = document.getElementById("next");
+    const slides = document.querySelectorAll(".slide");
+    let currentSlide = 0;
+
     // Show first slide
     showSlide(currentSlide);
 
 
     //Event listeners
     submitButton.addEventListener('click', showResults);
-    //New event listeners here
-    
-    })();
+    previousButton.addEventListener("click", showPreviousSlide);
+    nextButton.addEventListener("click", showNextSlide);
+  })();
