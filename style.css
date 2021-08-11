@@ -82,6 +82,25 @@ a {
 a:hover{
   color:var(--color-link);
 }
+/* Quiz Section */
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
 /* Research Section */
 .btn.btn-primary {
   background-color: var(--color-primary);
@@ -189,10 +208,6 @@ button.form-btn:hover {
 div.container-btn {
   padding-top: 30px;
   padding-bottom: 43px;
-}
-#map {
-  height: 400px;
-  width: 100%;
 }
 /* Footer */
 footer {

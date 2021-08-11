@@ -112,6 +112,12 @@ function showResults(){
     // Kick things off
     buildQuiz();
 
+    // Show first slide
+    showSlide(currentSlide);
+
+
     //Event listeners
     submitButton.addEventListener('click', showResults);
+    //New event listeners here
+    
     })();
