@@ -1,4 +1,5 @@
 // Functions
+(function(){
 function buildQuiz(){
     //variable to store HTML output
     const output = [];
@@ -26,8 +27,10 @@ function buildQuiz(){
 
         // add this question and it's answers to the output
         output.push(
+            <div class="slide">
             `<div class="question"> ${currentQuestion.question} </div>
             <div class="answers"> ${answers.join('')} </div>`
+            </div>
         );
 
     }
@@ -70,3 +73,45 @@ function showResults(){
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
     }
+
+    //Variables
+    const quizContainer = document.getElementById('quiz');
+    const resultsContainer = document.getElementById('results');
+    const submitButton = document.getElementById('submit');
+    const myQuestions = [
+        {
+          question: "Who invented JavaScript?",
+          answers: {
+            a: "Douglas Crockford",
+            b: "Sheryl Sandberg",
+            c: "Brendan Eich"
+          },
+          correctAnswer: "c"
+        },
+        {
+          question: "Which one of these is a JavaScript package manager?",
+          answers: {
+            a: "Node.js",
+            b: "TypeScript",
+            c: "npm"
+          },
+          correctAnswer: "c"
+        },
+        {
+          question: "Which tool can you use to ensure code quality?",
+          answers: {
+            a: "Angular",
+            b: "jQuery",
+            c: "RequireJS",
+            d: "ESLint"
+          },
+          correctAnswer: "d"
+        }
+      ];
+
+    // Kick things off
+    buildQuiz();
+
+    //Event listeners
+    submitButton.addEventListener('click', showResults);
+    })();
