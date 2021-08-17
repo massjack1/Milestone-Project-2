@@ -106,7 +106,7 @@ function showResults(){
             b: "Chemical",
             c: "Static"
           },
-          correctAnswer: "c"
+          correctAnswer: "a"
         },
         {
           question: "Which one of these is a JavaScript package manager?",
