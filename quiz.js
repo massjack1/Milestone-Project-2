@@ -100,11 +100,11 @@ function showResults(){
     const submitButton = document.getElementById('submit');
     const myQuestions = [
         {
-          question: "Who invented JavaScript?",
+          question: "What form of energy do concentrating solar power technologies use to generate electricity?",
           answers: {
-            a: "Douglas Crockford",
-            b: "Sheryl Sandberg",
-            c: "Brendan Eich"
+            a: "Thermal",
+            b: "Chemical",
+            c: "Static"
           },
           correctAnswer: "c"
         },
