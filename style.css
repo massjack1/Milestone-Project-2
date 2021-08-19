@@ -123,6 +123,15 @@ button {
 button:hover {
   background-color: #38a;
 }
+
+.carousel-control-prev:hover {
+  background-color: transparent;
+}
+
+.carousel-control-next:hover {
+  background-color: transparent;
+}
+
 .slide {
   position: relative;
   /* left: 0px;
