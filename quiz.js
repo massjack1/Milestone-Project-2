@@ -27,10 +27,10 @@ function buildQuiz(){
 
         // add this question and it's answers to the output
         output.push(
-            <div class="slide">
+            `<div class="slide">
             <div class="question"> ${currentQuestion.question} </div>
             <div class="answers"> ${answers.join("")} </div>
-            </div>
+            </div>`
         );
 
     }
@@ -76,13 +76,13 @@ function showResults(){
 
     function showSlide(n) {
       slides[currentSlide].classList.remove('active-slide');
-      slides[n].classList.addEventListener('active-slide');
+      slides[n].classList.add('active-slide');
       currentSlide = n;
-      if (currentSlide === 0){
+      if(currentSlide === 0){
         previousButton.style.display = 'none';
       }
       else{
-        previousButton.style.display = 'none';
+        previousButton.style.display = 'inline-block';
       }
       if(currentSlide === slides.length-1){
         nextButton.style.display = 'none';
@@ -92,6 +92,13 @@ function showResults(){
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
       }
+    }
+
+    function showNextSlide() {
+      showSlide(currentSlide + 1);
+    }
+    function showPreviousSlide() {
+      showSlide(currentSlide - 1);
     }
 
     //Variables

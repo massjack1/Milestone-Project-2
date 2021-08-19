@@ -3,36 +3,36 @@ body {
 }
 body::before {
   display: block;
-  content: '';
+  content: "";
   height: 60px;
 }
 /*  Classes representing the theme colors */
 .theme-light {
   --body-hero: #f8f9fa;
-  --body-bg:#fff;
+  --body-bg: #fff;
   --color-primary: #806161;
   --color-secondary: #999999;
   --color-link: #000;
   --color-f: #fff;
   --color-a: #fff;
   --btn-hover: #a37777;
-  --color-out:#ffffff;
-  --color-in:#ffffff;
-  --color-text:#ffffff;
+  --color-out: #ffffff;
+  --color-in: #ffffff;
+  --color-text: #ffffff;
   --color-contact-form: #ffffff;
 }
 .theme-dark {
-  --body-hero:#212529;
-  --body-bg:#000;
+  --body-hero: #212529;
+  --body-bg: #000;
   --color-primary: #806161;
   --color-secondary: #998e8e;
   --color-link: #fff;
-  --color-f:#000;
+  --color-f: #000;
   --color-a: #fff;
   --btn-hover: #a37777;
-  --color-out:#FFAEAE;
-  --color-in:#C58989;
-  --color-text:#FFF;
+  --color-out: #ffaeae;
+  --color-in: #c58989;
+  --color-text: #fff;
   --color-contact-form: #ffffff;
 }
 /* Navigation */
@@ -42,15 +42,16 @@ body::before {
 a.nav-link {
   color: var(--color-link);
 }
-a.nav-link:hover{
+a.nav-link:hover {
   color: var(--btn-hover);
 }
 /* Hero Showcase Section */
 .theme-1 {
   background-color: var(--body-bg);
 }
-h1, .lead {
-  color:var(--color-link);
+h1,
+.lead {
+  color: var(--color-link);
 }
 .hero-cta {
   background-color: var(--color-primary);
@@ -63,50 +64,52 @@ h1, .lead {
   border: none;
 }
 .hero-cta:hover {
-  background-color:var(--btn-hover);
+  background-color: var(--btn-hover);
 }
-a.hero-cta{
+a.hero-cta {
   color: var(--color-a);
 }
+
 /* Feature Section */
-.card.h-100{
+.card.h-100 {
   background-color: var(--color-f);
 }
-.card-title, p.card-text {
+.card-title,
+p.card-text {
   color: var(--color-link);
 }
 a {
- text-decoration: none;
- color: var(--color-link); 
+  text-decoration: none;
+  color: var(--color-link);
 }
-a:hover{
-  color:var(--color-link);
+a:hover {
+  color: var(--color-link);
 }
 /* Quiz Section */
-.body{
+.body {
   font-size: 20px;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #333;
   font-weight: 300;
   text-align: center;
   background-color: #f8f6f0;
 }
-h3{
+h3 {
   font-weight: 300;
   margin: 0px;
   padding: 10px;
   font-size: 20px;
 }
-.question{
+.question {
   font-weight: 600;
 }
-.answers{
+.answers {
   margin-bottom: 20px;
 }
-.answers label{
+.answers label {
   display: block;
 }
-button{
+button {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   background-color: #279;
@@ -117,23 +120,23 @@ button{
   cursor: pointer;
   margin-bottom: 20px;
 }
-button:hover{
+button:hover {
   background-color: #38a;
 }
 .slide {
-  position: absolute;
-  left: 0px;
-  top: 0px;
+  position: relative;
+  /* left: 0px;
+  top: 0px; */
   width: 100%;
   z-index: 1;
-  opacity: 0;
+  opacity: 2;
   transition: opacity 0.5s;
 }
-.active-slide{
+.active-slide {
   opacity: 1;
   z-index: 2;
 }
-.quiz-container{
+.quiz-container {
   position: relative;
   height: 200px;
   margin-top: 40px;
@@ -148,14 +151,14 @@ a.btn.btn.btn-primary:hover {
   background-color: var(--btn-hover);
 }
 /* FAQs Section */
-button.accordion-button:hover{
+button.accordion-button:hover {
   color: var(--btn-hover);
 }
 /*Theme Section*/
- /*Contact Section */
- h3 {
-   color: var(--color-link);
- }
+/*Contact Section */
+h3 {
+  color: var(--color-link);
+}
 section.contact-section {
   padding: 300px 0;
   background-color: var(--body-bg);
@@ -225,7 +228,7 @@ textarea#message {
   display: block;
   width: 100%;
   background: transparent;
-  color:var(--color-info-text);
+  color: var(--color-info-text);
   line-height: 1.2;
   border-radius: 20px;
 }
