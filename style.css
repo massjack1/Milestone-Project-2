@@ -102,12 +102,17 @@ h3 {
 }
 .question {
   font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
 }
 .answers {
   margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
 }
 .answers label {
   display: block;
+  margin-bottom:10px;
 }
 button {
   font-family: "Poppins", sans-serif;
@@ -134,8 +139,8 @@ button:hover {
 
 .slide {
   position: relative;
-  /* left: 0px;
-  top: 0px; */
+  left: 0px;
+  top: 0px;
   width: 100%;
   z-index: 1;
   opacity: 2;
